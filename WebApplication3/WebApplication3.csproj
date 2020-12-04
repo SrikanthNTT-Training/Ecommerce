@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=""UTF-8=""">
+		<TITLE>VALIDATED LOGIN PAGE</TITLE>
+		<link rel=""style="" sheet="""href="style.css=""">
+	</head>
+	<body>
+		<div class=""container=""">
+			<h1 class=""lable=""">user name</h1>
+			<h2 class="lable">pass word</h2>
+			<from class =""login-form=""">
+			<div class="font">user name and pass word</div>
+			<input type=""text="""name="user="" name=""">
+			<input type="text" name="password"></input>
+			<div class=""font="" font2=""">password"</div>
+			<input type=""password="""name="">
+			<button type="login page">login page</button>
+			</form>
+		</div>
+		<script src="valid.js"></script>"
+
+	</body>
+	</head>
+</html>
+
+  
