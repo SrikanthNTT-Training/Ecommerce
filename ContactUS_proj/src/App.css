@@ -1,0 +1,28 @@
+
+
+h1 {
+  text-align:center;
+}
+  
+button{
+  text-align: right;
+}
+
+.leftalign{
+  margin-left: 100px;
+  
+}
+
+.increase{
+  width: 500px;
+  height: 100px;
+}
+
+.space{
+  padding-left: 350px;
+
+}
+div {
+  width: 100%;
+  border: 1px solid;
+}
