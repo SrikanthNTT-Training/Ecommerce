@@ -1,0 +1,62 @@
+.cart {
+    display: flex;
+    display: -webkit-flex;
+    margin-left: 64px;
+    position: relative;
+    left: 75%;
+    color: white;
+    z-index: 99;
+   
+  }
+  .cart-info {
+    @media (max-width: 991px) {
+      display: none;
+      
+    }
+    margin-left: 80%;
+  }
+  .closeSymbol{
+    cursor: pointer;
+     background-color: red;
+      padding: 8px;
+      color: black;
+      height:20px;
+      width: 20px;
+     border-top: 0rem;
+  }
+  .cardContainer{
+    display:block;
+    width: 80vw;
+    height: 80vh;
+    background-color: #f4f4f4;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    font-size: 15;
+    padding: 20;
+    z-index: 4;
+    box-shadow: 0 0 10px #000;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.main1 {
+  padding: 10;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  overflow: auto;
+}
+.backdrop {
+  display:block;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #00000099;
+  z-index: -9999999999;
+}
+

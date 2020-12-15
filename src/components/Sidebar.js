@@ -5,22 +5,22 @@ import * as  GiIcons from 'react-icons/gi';
 
 export const Sidebar =[
 {
-    title:'Home',
-    path:'/home',
+    title:'Shopping',
+    path:'/Shopping',
     icon:<AiIcons.AiFillHome/>,
-    className :'nav-text'
+    className :'nav-text-1'
 },
 {
-    title:'About',
-    path:'/about',
+    title:'Contact us',
+    path:'/contact us',
     icon:<GiIcons.GiDress/>,
-    className :'nav-text'
+    className :'nav-text-1'
 },
 {
-    title:'Shop',
-    path:'/shop',
+    title:'Help Support',
+    path:'/help support',
     icon:<FaIcons.FaShirtsinbulk/>,
-    className :'nav-text'
+    className :'nav-text-1'
 }
 
 ]
