@@ -73,6 +73,7 @@ class NavBar extends Component {
 
                 </header>
                 <Switch>
+                    <Route path='/' exact component={Home} />
                     <Route path='/home' exact component={Home} />
                     <Route path='/Contact us' component={Contactus} />
                     <Route path='/sign-in' component={SignIn} />

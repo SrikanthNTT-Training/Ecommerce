@@ -56,7 +56,7 @@ function SignIn() {
           onChange={handlepasswordlInputChange}
       /><br></br>
        <button type='submit'>sign</button><br></br>
-       <h2>New to amazona</h2>
+       <h2>New to Client</h2>
        <button type='new to client'>new to client</button>
       
          </form>

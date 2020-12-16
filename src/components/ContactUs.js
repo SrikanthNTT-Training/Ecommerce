@@ -96,7 +96,7 @@
              <input className="increase"
               id="message"
                type="text"
-                placeholder="Enter Your Message"
+                placeholder="Tell us your purpose"
                 name="message"
                 value={values.message}
                 onChange={handlemessageInputChange}

@@ -27,12 +27,6 @@ componentDidMount (){
     
 }
 
-updateQuantity(qty) {
-    console.log("quantity added...");
-    this.setState({
-      quantity: qty
-    });
-  }
 
 render()
 {
@@ -40,7 +34,6 @@ render()
         <div>
         <Product productslist={this.state.products}
         productQuantity={this.state.quantity}
-        updateQuantity={this.updateQuantity}
         />
         </div>
     );

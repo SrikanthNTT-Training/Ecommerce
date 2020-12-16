@@ -64,42 +64,7 @@ export default function Cart(props) {
       setpopup(!popup);
       }
   
-  /*   const grouproduct = (products) =>{
-         // console.log('products');
-         // console.log(products);
 
-          let localarray=[];
-          let counter=0;
-         
-        
-          products.filter((item, index) =>{
-              console.log("item"+JSON.stringify(item) );
-            if (products.indexOf(item) === index) {
-                counter++;
-                localarray.push(item, counter);
-                console.log('locallarray');
-                console.log(localarray);
-            }
-            counter=0;
-           
-          });
-       
-      
-        localarray.forEach( (newproduct, index) => {
-            console.log("see this="+JSON.stringify(newproduct));
-            <div className="product" key={index} style={{margin: '0 10px'}}>
-            <img src={newproduct.imageRefPath} alt={newproduct.productName}/>
-            <h1>COUNT:{newproduct}</h1>
-            <h3>{newproduct.productName}</h3>
-            <h4>₹ {newproduct.price}</h4>
-                <br />
-            <button onClick={ () => props.deleteFromCart(newproduct.productId)}>
-                Remove
-            </button>
-            </div>  
-          })
-       
-    } */
   
   
    
@@ -128,7 +93,7 @@ export default function Cart(props) {
                 {/* {props.cart.map((product,index)=>(   */}
                       {/* {grouproduct(props.cart)}  */}
 
-                      {props.cart.map((product,index)=>(
+                    {props.cart.map((product,index)=>(
                           props.cart.indexOf(product) === index ?
                     <div className="product" key={index} style={{margin: '0 10px'}}>
                    
